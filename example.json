@@ -1,16 +1,26 @@
-{
-  "external_id": "1234qwer",
-  "external_meta": {
-      "amount": 44342,
-      "period": 33,
-      "lastname": "Иванов"
-  },
-  "contacts": [{
-      "lastname": "Петров",
-      "relation": 3
-  }],
-  "contacts2": [{
-    "lastname": "bdfyjd",
-    "relation": 3
-}]
-}
+[
+  {
+    "552241153": [
+      {
+        "text": "тест",
+        "status": "Not answered"
+      },
+      {
+
+        "text": "Второй тест",
+        "status": "Not answered"
+      }
+    ],
+    "5522411532": [
+      {
+        "text": "тест",
+        "status": "Not answered"
+      },
+      {
+
+        "text": "Второй тест",
+        "status": "Not answered"
+      }
+    ]    
+  }
+]
