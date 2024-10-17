@@ -1,18 +1,14 @@
 [
   {
-    "name": "dialer",
-    "state": 200
+    "dialer" : "200"
   },
   {
-    "name": "tts-web",
-    "state": 200
+    "name": "tts-web", "state": 200
   },
   {
-    "name": "asterisk-ari",
-    "state": 200
+    "name": "asterisk-ari", "state": 200
   },
   {
-    "name": "asterisk-sbc",
-    "state": 500
+    "name": "asterisk-sbc", "state": 500
   }
 ]
