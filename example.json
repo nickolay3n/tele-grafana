@@ -1,14 +1,14 @@
 [
-  {
-    "name":  "dialer" , "state": 200
-  },
-  {
-    "name": "tts-web", "state": 200
-  },
-  {
-    "name": "asterisk-ari", "state": 200
-  },
-  {
-    "name": "asterisk-sbc", "state": 500
-  }
+  { "name": "2024.10.18 18:15", "state": 200 },
+  { "name": "backend", "state": 200 },
+  { "name": "tts-web", "state": 200 },
+  { "name": "classifier", "state": 200 },
+  { "name": "dialer" , "state": 200 },
+  { "name": "front" , "state": 200 },
+  { "name": "sber-tts" , "state": 200 },
+  { "name": "sber-asr" , "state": 200 },
+  { "name": "asterisk-ari", "state": 200 },
+  { "name": "asterisk-sbc", "state": 500 },
+  { "name": "rs-recog", "state": 500 },
+  { "name": "ms-service", "state": 500 }
 ]
