@@ -1,4 +1,14 @@
 [
+ [ 
+  {
+    "name": "backend",
+    "state": 200
+  },
+  {
+    "name": "dialer",
+    "state": 500
+  }
+ ],
   {
     "name": "asterisk-ari",
     "state": 200
