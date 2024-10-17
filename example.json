@@ -1,16 +1,16 @@
-[
-
-  {
-    "name": "asterisk-ari",
-    "name1": "asterisk-ari1",
-    "state": 200
+{
+  "external_id": "1234qwer",
+  "external_meta": {
+      "amount": 44342,
+      "period": 33,
+      "lastname": "Иванов"
   },
-  {
-    "name": "asterisk-ari",
-    "state": 200
-  },
-  {
-    "name": "asterisk-sbc",
-    "state": 200
-  }
-]
+  "contacts": [{
+      "lastname": "Петров",
+      "relation": 3
+  }],
+  "contacts2": [{
+    "lastname": "bdfyjd",
+    "relation": 3
+}]
+}
