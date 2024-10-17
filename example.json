@@ -1,26 +1,18 @@
 [
   {
-    "552241153": [
-      {
-        "text": "тест",
-        "status": "Not answered"
-      },
-      {
-
-        "text": "Второй тест",
-        "status": "Not answered"
-      }
-    ],
-    "5522411532": [
-      {
-        "text": "тест",
-        "status": "Not answered"
-      },
-      {
-
-        "text": "Второй тест",
-        "status": "Not answered"
-      }
-    ]    
+    "name": "dialer",
+    "state": 200
+  },
+  {
+    "name": "tts-web",
+    "state": 200
+  },
+  {
+    "name": "asterisk-ari",
+    "state": 200
+  },
+  {
+    "name": "asterisk-sbc",
+    "state": 500
   }
 ]
