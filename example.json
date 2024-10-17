@@ -14,6 +14,10 @@
     "state": 200
   },
   {
+    "name": "asterisk-ari",
+    "state": 200
+  },
+  {
     "name": "asterisk-sbc",
     "state": 200
   }
