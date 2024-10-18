@@ -1,0 +1,30 @@
+x-log-defaults: &log-defaults
+  logging:
+    driver: "json-file"
+    options:
+      max-size: "5m"
+      max-file: "10"
+
+x-env-defaults: &env-defaults
+    environment:
+      TZ: 'Europe/Moscow'
+#      GF_SERVER_ROOT_URL: 'http://maics.voice-technology.ru:3030'
+      GF_INSTALL_PLUGINS: 'grafana-clock-panel,grafana-simple-json-datasource'
+#grafana-cli plugins install ${plugin}
+services:
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: grafana
+    hostname: 'grafana.mine'
+#    environment:
+#      GF_SERVER_ROOT_URL: 'http://maics.voice-technology.ru:3030'
+#      GF_INSTALL_PLUGINS: 'grafana-clock-panel'
+    restart: always
+    ports:
+     - '3030:3000'
+    volumes:
+#     - 'grafana_storage:/var/lib/grafana'
+     - './etc/storage:/var/lib/grafana'
+     - './etc/grafana.ini:/etc/grafana/grafana.ini'
+     - './etc/log:/var/log/grafana'
+     - './etc/audit.log:/var/log/grafana/audit.log'
